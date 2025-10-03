@@ -11,7 +11,7 @@ export const SearchPage = () => {
         description="Discover, explore, and manage your favorite superheroes and villains"
       />
 
-      <CustomBreadcrumbs currentPage="Superhero Search" />
+      <CustomBreadcrumbs currentPage="Superhero search" />
       {/* Stats Dashboard */}
       <HeroStats />
 
