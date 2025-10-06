@@ -1,10 +1,12 @@
+import { useSearchParams } from 'react-router-dom';
+import { useQuery } from '@tanstack/react-query';
+
 import { CustomJumbotron } from '@/components/ui/custom/CustomJumbotron';
 import { HeroStats } from '@/heroes/components/HeroStats';
 import { SearchControls } from './ui/SearchControls';
 import { CustomBreadcrumbs } from '@/components/ui/custom/CustomBreadCrumbs';
+
 import { HeroGrid } from '@/heroes/components/HeroGrid';
-import { useQuery } from '@tanstack/react-query';
-import { useSearchParams } from 'react-router-dom';
 import { searchHeroAction } from '@/heroes/actions/search-hero.action';
 
 export const SearchPage = () => {
