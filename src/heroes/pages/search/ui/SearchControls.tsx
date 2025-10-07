@@ -61,7 +61,6 @@ export const SearchControls = () => {
             onClick={() => {
               if (activeAccordionTab === 'advanced-filters') {
                 setQueryParams('active-accordiontab', '');
-                // searchParams.delete('active-accordiontab');
                 return;
               }
 
@@ -92,7 +91,6 @@ export const SearchControls = () => {
 
       <Accordion type="single" collapsible value={activeAccordionTab}>
         <AccordionItem value="advanced-filters">
-          {/* <AccordionTrigger>Advanced Filters</AccordionTrigger> */}
           <AccordionContent>
             <div className="bg-white rounded-lg p-6 mb-8 shadow-sm border">
               <div className="flex justify-between items-center mb-4">
