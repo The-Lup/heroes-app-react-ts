@@ -35,7 +35,6 @@ export const SearchPage = () => {
       {/* Search and Filter */}
       <SearchControls />
 
-      {/*  */}
       <HeroGrid heroes={heroes} />
     </>
   );
