@@ -80,4 +80,14 @@ describe('AppRouter', () => {
 
     expect(await screen.findByTestId('admin-page')).toBeDefined();
   });
+
+  test('Should redirect to home page for unknown routes', () => {
+    const router = createMemoryRouter(appRouter.routes, {
+      initialEntries: ['/the-moon'],
+    });
+
+    render(<RouterProvider router={router} />);
+
+    expect(screen.getByTestId('home-page')).toBeDefined();
+  });
 });

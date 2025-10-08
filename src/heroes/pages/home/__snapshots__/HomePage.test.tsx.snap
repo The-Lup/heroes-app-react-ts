@@ -1,0 +1,270 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`HomePage > Should render homepage with default values 1`] = `
+<div>
+  <div
+    class="text-center mb-8"
+  >
+    <h1
+      class="text-5xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent mb-4"
+    >
+      Superhero Universe
+    </h1>
+    <p
+      class="text-gray-600 text-lg"
+    >
+      Discover, explore, and manage your favorite superheroes and villains
+    </p>
+  </div>
+  <nav
+    aria-label="breadcrumb"
+    class="my-5"
+    data-slot="breadcrumb"
+  >
+    <ol
+      class="text-muted-foreground flex flex-wrap items-center gap-1.5 text-sm break-words sm:gap-2.5"
+      data-slot="breadcrumb-list"
+    >
+      <li
+        class="inline-flex items-center gap-1.5"
+        data-slot="breadcrumb-item"
+      >
+        <a
+          class="hover:text-foreground transition-colors"
+          data-discover="true"
+          data-slot="breadcrumb-link"
+          href="/"
+        >
+          Home
+        </a>
+      </li>
+      <li
+        aria-hidden="true"
+        class="[&>svg]:size-3.5"
+        data-slot="breadcrumb-separator"
+        role="presentation"
+      >
+        <svg
+          aria-hidden="true"
+          class="lucide lucide-slash"
+          fill="none"
+          height="24"
+          stroke="currentColor"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="2"
+          viewBox="0 0 24 24"
+          width="24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M22 2 2 22"
+          />
+        </svg>
+      </li>
+      <li
+        class="inline-flex items-center gap-1.5"
+        data-slot="breadcrumb-item"
+      >
+        <a
+          class="hover:text-foreground transition-colors text-black"
+          data-slot="breadcrumb-link"
+        >
+          Super Heroes
+        </a>
+      </li>
+    </ol>
+  </nav>
+  <div>
+    Loading...
+  </div>
+  <div
+    class="flex flex-col gap-2 mb-8"
+    data-orientation="horizontal"
+    data-slot="tabs"
+    dir="ltr"
+  >
+    <div
+      aria-orientation="horizontal"
+      class="bg-muted text-muted-foreground h-9 items-center justify-center rounded-lg p-[3px] grid w-full grid-cols-4"
+      data-orientation="horizontal"
+      data-slot="tabs-list"
+      role="tablist"
+      style="outline: none;"
+      tabindex="0"
+    >
+      <button
+        aria-controls="radix-_r_0_-content-all"
+        aria-selected="true"
+        class="data-[state=active]:bg-background dark:data-[state=active]:text-foreground focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:outline-ring dark:data-[state=active]:border-input dark:data-[state=active]:bg-input/30 text-foreground dark:text-muted-foreground inline-flex h-[calc(100%-1px)] flex-1 items-center justify-center gap-1.5 rounded-md border border-transparent px-2 py-1 text-sm font-medium whitespace-nowrap transition-[color,box-shadow] focus-visible:ring-[3px] focus-visible:outline-1 disabled:pointer-events-none disabled:opacity-50 data-[state=active]:shadow-sm [&_svg]:pointer-events-none [&_svg]:shrink-0 [&_svg:not([class*='size-'])]:size-4"
+        data-orientation="horizontal"
+        data-radix-collection-item=""
+        data-slot="tabs-trigger"
+        data-state="active"
+        id="radix-_r_0_-trigger-all"
+        role="tab"
+        tabindex="-1"
+        type="button"
+      >
+        All Characters (
+        )
+      </button>
+      <button
+        aria-controls="radix-_r_0_-content-favorites"
+        aria-selected="false"
+        class="data-[state=active]:bg-background dark:data-[state=active]:text-foreground focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:outline-ring dark:data-[state=active]:border-input dark:data-[state=active]:bg-input/30 text-foreground dark:text-muted-foreground h-[calc(100%-1px)] flex-1 justify-center rounded-md border border-transparent px-2 py-1 text-sm font-medium whitespace-nowrap transition-[color,box-shadow] focus-visible:ring-[3px] focus-visible:outline-1 disabled:pointer-events-none disabled:opacity-50 data-[state=active]:shadow-sm [&_svg]:pointer-events-none [&_svg]:shrink-0 [&_svg:not([class*='size-'])]:size-4 flex items-center gap-2"
+        data-orientation="horizontal"
+        data-radix-collection-item=""
+        data-slot="tabs-trigger"
+        data-state="inactive"
+        id="radix-_r_0_-trigger-favorites"
+        role="tab"
+        tabindex="-1"
+        type="button"
+      >
+        Favorites (
+        0
+        )
+      </button>
+      <button
+        aria-controls="radix-_r_0_-content-heroes"
+        aria-selected="false"
+        class="data-[state=active]:bg-background dark:data-[state=active]:text-foreground focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:outline-ring dark:data-[state=active]:border-input dark:data-[state=active]:bg-input/30 text-foreground dark:text-muted-foreground inline-flex h-[calc(100%-1px)] flex-1 items-center justify-center gap-1.5 rounded-md border border-transparent px-2 py-1 text-sm font-medium whitespace-nowrap transition-[color,box-shadow] focus-visible:ring-[3px] focus-visible:outline-1 disabled:pointer-events-none disabled:opacity-50 data-[state=active]:shadow-sm [&_svg]:pointer-events-none [&_svg]:shrink-0 [&_svg:not([class*='size-'])]:size-4"
+        data-orientation="horizontal"
+        data-radix-collection-item=""
+        data-slot="tabs-trigger"
+        data-state="inactive"
+        id="radix-_r_0_-trigger-heroes"
+        role="tab"
+        tabindex="-1"
+        type="button"
+      >
+        Heroes (
+        )
+      </button>
+      <button
+        aria-controls="radix-_r_0_-content-villains"
+        aria-selected="false"
+        class="data-[state=active]:bg-background dark:data-[state=active]:text-foreground focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:outline-ring dark:data-[state=active]:border-input dark:data-[state=active]:bg-input/30 text-foreground dark:text-muted-foreground inline-flex h-[calc(100%-1px)] flex-1 items-center justify-center gap-1.5 rounded-md border border-transparent px-2 py-1 text-sm font-medium whitespace-nowrap transition-[color,box-shadow] focus-visible:ring-[3px] focus-visible:outline-1 disabled:pointer-events-none disabled:opacity-50 data-[state=active]:shadow-sm [&_svg]:pointer-events-none [&_svg]:shrink-0 [&_svg:not([class*='size-'])]:size-4"
+        data-orientation="horizontal"
+        data-radix-collection-item=""
+        data-slot="tabs-trigger"
+        data-state="inactive"
+        id="radix-_r_0_-trigger-villains"
+        role="tab"
+        tabindex="-1"
+        type="button"
+      >
+        Villains (
+        )
+      </button>
+    </div>
+    <div
+      aria-labelledby="radix-_r_0_-trigger-all"
+      class="flex-1 outline-none"
+      data-orientation="horizontal"
+      data-slot="tabs-content"
+      data-state="active"
+      id="radix-_r_0_-content-all"
+      role="tabpanel"
+      style="animation-duration: 0s;"
+      tabindex="0"
+    >
+      <div
+        class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-8"
+      />
+    </div>
+    <div
+      aria-labelledby="radix-_r_0_-trigger-favorites"
+      class="flex-1 outline-none"
+      data-orientation="horizontal"
+      data-slot="tabs-content"
+      data-state="inactive"
+      hidden=""
+      id="radix-_r_0_-content-favorites"
+      role="tabpanel"
+      tabindex="0"
+    />
+    <div
+      aria-labelledby="radix-_r_0_-trigger-heroes"
+      class="flex-1 outline-none"
+      data-orientation="horizontal"
+      data-slot="tabs-content"
+      data-state="inactive"
+      hidden=""
+      id="radix-_r_0_-content-heroes"
+      role="tabpanel"
+      tabindex="0"
+    />
+    <div
+      aria-labelledby="radix-_r_0_-trigger-villains"
+      class="flex-1 outline-none"
+      data-orientation="horizontal"
+      data-slot="tabs-content"
+      data-state="inactive"
+      hidden=""
+      id="radix-_r_0_-content-villains"
+      role="tabpanel"
+      tabindex="0"
+    />
+  </div>
+  <div
+    class="flex items-center justify-center space-x-2"
+  >
+    <button
+      class="cursor-pointer inline-flex items-center justify-center whitespace-nowrap text-sm font-medium transition-all disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive border bg-background shadow-xs hover:bg-accent hover:text-accent-foreground dark:bg-input/30 dark:border-input dark:hover:bg-input/50 h-8 rounded-md gap-1.5 px-3 has-[>svg]:px-2.5"
+      data-slot="button"
+      disabled=""
+    >
+      <svg
+        aria-hidden="true"
+        class="lucide lucide-chevron-left h-4 w-4"
+        fill="none"
+        height="24"
+        stroke="currentColor"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-width="2"
+        viewBox="0 0 24 24"
+        width="24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="m15 18-6-6 6-6"
+        />
+      </svg>
+      Previous
+    </button>
+    <button
+      class="cursor-pointer inline-flex items-center justify-center whitespace-nowrap text-sm font-medium transition-all disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-primary text-primary-foreground hover:bg-primary/90 h-8 rounded-md gap-1.5 px-3 has-[>svg]:px-2.5"
+      data-slot="button"
+    >
+      1
+    </button>
+    <button
+      class="cursor-pointer inline-flex items-center justify-center whitespace-nowrap text-sm font-medium transition-all disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive border bg-background shadow-xs hover:bg-accent hover:text-accent-foreground dark:bg-input/30 dark:border-input dark:hover:bg-input/50 h-8 rounded-md gap-1.5 px-3 has-[>svg]:px-2.5"
+      data-slot="button"
+      disabled=""
+    >
+      Next
+      <svg
+        aria-hidden="true"
+        class="lucide lucide-chevron-right h-4 w-4"
+        fill="none"
+        height="24"
+        stroke="currentColor"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-width="2"
+        viewBox="0 0 24 24"
+        width="24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="m9 18 6-6-6-6"
+        />
+      </svg>
+    </button>
+  </div>
+</div>
+`;
