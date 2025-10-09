@@ -33,6 +33,7 @@ This project demonstrates best practices in frontend development, state manageme
 - 🎨 **ShadcnUI** – Styled, accessible UI components
 - 🛠 **NestJS (Backend)** – See the backend repository here: [nestjs-heroesapp-backend](https://github.com/The-Lup/nestjs-heroesapp-backend.git)
 - 🧪 **Vitest** – Unit and integration testing framework
+- 🌐 **Render** – A cloud platform for hosting web. Used to Backend deployment.
 
 ---
 
