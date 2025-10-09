@@ -15,4 +15,4 @@ Tecnologias usadas:
 4. Tanstack Query
 5. Axios
 6. ShadcnUI
-7. NestJS para el backend favor ver el link (Link del repo)
+7. NestJS para el backend favor ver el link [(Link del repo)](https://github.com/The-Lup/nestjs-heroesapp-backend.git)
