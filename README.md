@@ -1,18 +1,21 @@
 # Heroes APP React + TypeScript + Vite
 
-## Levantar desarrollo
+## Start Development
 
-1. Clonar el repositorio
-2. Editar el archivo .env con las variales de entorno basado en el archivo .env.template.
-3. Ejecutar el comando npm install
-4. Ejecutar el npm run dev.
+1.  Clone the repository
+2.  Edit the **.env** file with the environment variables based on the **.env.template** file.
+3.  Execute the command `npm install`
+4.  Execute `npm run dev`.
 
-Tecnologias usadas:
+---
 
-1. React
-2. Typescript
-3. Tailwind
-4. Tanstack Query
-5. Axios
-6. ShadcnUI
-7. NestJS para el backend favor ver el link [(Link del repo)](https://github.com/The-Lup/nestjs-heroesapp-backend.git)
+## Technologies Used:
+
+1.  React
+2.  TypeScript
+3.  Tailwind
+4.  TanStack Query
+5.  Axios
+6.  ShadcnUI
+7.  NestJS for the backend, please see the link [(Repo Link)](https://github.com/The-Lup/nestjs-heroesapp-backend.git)
+8.  Testing using Vitest
